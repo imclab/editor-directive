@@ -6,7 +6,10 @@
   "keywords": [],
   "author": "Lance Pollard <lancejpollard@gmail.com>",
   "dependencies": {
-    "tower/directive": "*"
+    "tower/directive": "*",
+    "ace": "*",
+    "ace/mode-javascript": "*",
+    "ace/worker-javascript": "*"
   },
   "development": {
     "visionmedia/mocha": "*",

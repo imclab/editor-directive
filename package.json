@@ -5,5 +5,8 @@
   "author": "Lance Pollard <lancejpollard@gmail.com>",
   "dependencies": {
     "superagent": "~0.14.9"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
   }
 }
