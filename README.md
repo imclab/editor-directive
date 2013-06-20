@@ -22,6 +22,10 @@ Then put ace script tags into the DOM:
 
 ```js
 var editor = require('tower-editor-directive');
+
+//editor.getSession().on('change', function(){
+//  
+//});
 ```
 
 Use the directive like this:
