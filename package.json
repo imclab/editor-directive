@@ -1,0 +1,9 @@
+{
+  "name": "tower-editor-directive",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": "Lance Pollard <lancejpollard@gmail.com>",
+  "dependencies": {
+    "superagent": "~0.14.9"
+  }
+}

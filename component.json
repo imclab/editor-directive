@@ -1,0 +1,19 @@
+{
+  "name": "tower-editor-directive",
+  "repo": "tower/editor-directive",
+  "description": "Tower Editor Directive component",
+  "version": "0.0.1",
+  "keywords": [],
+  "author": "Lance Pollard <lancejpollard@gmail.com>",
+  "dependencies": {
+    "tower/directive": "*"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "timoxley/assert": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}

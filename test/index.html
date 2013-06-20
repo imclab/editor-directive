@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tower Editor Directive</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../build/build.css" />
+    <style type="text/css" media="screen">
+      body {
+        overflow: hidden;
+      }
+      
+      #editor { 
+        margin: 0;
+        width: 500px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- load up ace -->
+    <script src="../build/ace/src-noconflict/ace.js"></script>
+    <script src="../build/ace/src-noconflict/worker-javascript.js"></script>
+    <script src="../build/ace/src-noconflict/mode-javascript.js"></script>
+    <!-- directive -->
+    <pre id="editor" data-editor="javascript"></pre>
+    <div id="mocha"></div>
+    <script src="../build/build.js"></script>
+    <script>require('visionmedia-mocha')</script>
+    <script>mocha.setup('bdd')</script>
+    <script src="index.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
