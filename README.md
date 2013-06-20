@@ -7,7 +7,7 @@ Question. How do you go about converting libraries like the ace editor (which ha
 browser:
 
 ```bash
-$ component install tower/editor-directive
+$ component install viatropos/editor-directive
 $ git clone https://github.com/ajaxorg/ace-builds build/ace
 ```
 
