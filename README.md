@@ -24,6 +24,12 @@ Then put ace script tags into the DOM:
 var editor = require('tower-editor-directive');
 ```
 
+Use the directive like this:
+
+```html
+<pre id="editor" data-editor="javascript"></pre>
+```
+
 ## Notes
 
 - [Ace editor kitchen sink](http://ace.ajax.org/build/kitchen-sink.html)
