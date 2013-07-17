@@ -2,11 +2,11 @@
   "name": "tower-editor-directive",
   "repo": "tower/editor-directive",
   "description": "Tower Editor Directive component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "author": "Lance Pollard <lancejpollard@gmail.com>",
   "dependencies": {
-    "tower/directive": "*",
+    "tower/directive": "0.1.1",
     "ace": "*",
     "ace/mode-javascript": "*",
     "ace/worker-javascript": "*"
